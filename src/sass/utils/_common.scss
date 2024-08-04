@@ -1,0 +1,27 @@
+body {
+    // position: relative;
+    height: $depth;
+
+    background-color: $primary-bg-color;
+    color: $primary-color;
+    font-family: raleway_c, sans-serif;
+    font-size: calc($index * .8); // responsive fz
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 100;
+    text-transform: uppercase;
+}

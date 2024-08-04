@@ -1,0 +1,11 @@
+// gallery-3d-scroll
+// responsive index for size
+$index: calc(1vw + 1vh); // index for viewport aspect ratio
+$gutter: 30px; // distance between cards (inside)
+$side-small: 26; // card aspect ratio, relative value
+$side-big: 36; // card aspect ratio,  relative value
+$depth: 4000px;
+$transition: 750ms cubic-bezier(.075, .5, 0, 1);
+
+$primary-bg-color: #000000;
+$primary-color: #ffffff;
